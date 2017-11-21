@@ -1,0 +1,69 @@
+/*
+ * wd.resume.css
+ * resume namespace styles
+*/
+
+/* Begin resume namespace selectors */
+#wd-resume {
+  width: 1000px;
+  margin: 10px auto;
+  padding: 10px 0px;
+  min-width: 500px;
+  overflow:  visible;
+  font-family: "Microsoft Yahei";
+  font-size: 15px;
+  line-height: 26px;
+  background-color: #fff;
+  border-radius: 8px 8px 8px 8px;
+}
+
+#wd-resume-logo {
+  width: 250px;
+  height: 250px;
+  margin: 30px auto; 
+  border-radius: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://secure.gravatar.com/avatar/4e1b831efef47d65a762da5d5e89174c?s=250');
+}
+
+#wd-resume-slogan {
+  height: 125px;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+  background-color: #eee;
+}
+
+#wd-resume-info-title {
+  height: 170px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+#wd-resume-info, #wd-resume-contact {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding: 0 10px;
+}
+
+#wd-resume-title, #wd-resume-skills {
+  width: 50%;
+  float: right;
+  padding: 0 10px;
+}
+
+#wd-resume-contact-skills {
+  height: 170px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #eee;
+}
+
+#wd-resume-timeline {
+}
+
+.wd-resume-title {
+  font-weight: bold;
+}
