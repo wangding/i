@@ -1,10 +1,17 @@
+/* global module: true */
 module.exports = function (grunt) {
   grunt.initConfig({
-    jshint: {
-      all: 'js/*.js',
+    csslint: {
       options: {
-        jshintrc: true
-      } 
+        csslintrc: '.csslintrc'
+      },
+      src: 'css/*.css'
+    },
+    htmlhint: {
+      options: {
+        htmlhintrc: '.htmlhintrc'
+      },
+      src: '*.html'
     },
     htmlmin: {
       options: {
@@ -23,9 +30,9 @@ module.exports = function (grunt) {
       },
       end: {
         files: [
-        {expand: true, flatten: true, filter: 'isFile', src: 'dist/index.html', dest: './' },
-        {expand: true, flatten: true, filter: 'isFile', src: 'dist/js/bundle.min.js', dest: 'js/'},
-        {expand: true, flatten: true, filter: 'isFile', src: 'dist/css/bundle.min.css', dest: 'css/'}]
+          {expand: true, flatten: true, filter: 'isFile', src: 'dist/index.html', dest: './' },
+          {expand: true, flatten: true, filter: 'isFile', src: 'dist/js/bundle.min.js', dest: 'js/'},
+          {expand: true, flatten: true, filter: 'isFile', src: 'dist/css/bundle.min.css', dest: 'css/'}]
       }
     },
     concat: {
@@ -54,12 +61,12 @@ module.exports = function (grunt) {
       html: ['dist/index.html']
     },
     clean: {
-      middle: ['js/*', 'css/*'],
-      end: ['dist', 'package-lock.json', '.tmp', 'node_modules', 'package.json', 'README.md', 'Gruntfile.js', '.tern-project', '.jshintrc', '.gitignore']
+      end: ['dist/css/bundle.css', 'dist/js/bundle.js', '.tmp']
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-csslint');
+  grunt.loadNpmTasks('grunt-htmlhint');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
@@ -68,5 +75,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-usemin');
 
-  grunt.registerTask('default', ['copy:html', 'jshint', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'usemin', 'htmlmin', 'clean:middle', 'copy:end', 'clean:end']);
+  grunt.registerTask('lint', ['htmlhint', 'csslint']);
+  grunt.registerTask('build', ['copy:html', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'usemin', 'htmlmin', 'clean:end']);
 };

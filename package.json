@@ -2,9 +2,9 @@
   "name": "i",
   "version": "1.0.0",
   "description": "王顶的个人简历",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt lint && eslint --quiet *",
+    "build": "grunt build"
   },
   "repository": {
     "type": "git",
@@ -17,14 +17,16 @@
   },
   "homepage": "https://github.com/wangding/i#readme",
   "devDependencies": {
+    "eslint": "^4.19.1",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
     "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-htmlmin": "^2.4.0",
-    "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^3.3.0",
+    "grunt-htmlhint": "^0.9.13",
     "grunt-usemin": "^3.1.1"
   }
 }
