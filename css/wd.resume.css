@@ -7,7 +7,7 @@
 #wd-resume {
   width: 1000px;
   margin: 10px auto;
-  padding: 10px 0px;
+  padding: 10px 0;
   min-width: 500px;
   overflow:  visible;
   font-family: "Microsoft Yahei";
@@ -59,9 +59,6 @@
   margin: 10px 0;
   padding: 10px;
   background-color: #eee;
-}
-
-#wd-resume-timeline {
 }
 
 .wd-resume-title {
