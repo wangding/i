@@ -16,6 +16,60 @@
 wd.data = {
   'timeline' : [
     {
+      'class' : 'l',
+      'date'  : '2018年6月17日',
+      'event' : '制作并上线了信息科学基础在线实验',
+      'href'  : 'http://info-lab.wangding.in'
+    },
+    {
+      'class' : 'l',
+      'date'  : '2018年6月4日',
+      'event' : '制作并上线了 Node.js 开发在线通关任务',
+      'href'  : 'http://nodejs.wangding.in'
+    },
+    {
+      'class' : 'l',
+      'date'  : '2018年5月22日',
+      'event' : '制作并上线了 SPA 课程案例网站',
+      'href'  : 'http://spa.wangding.in'
+    },
+    {
+      'class' : 'l',
+      'date'  : '2018年4月25日',
+      'event' : '制作并上线了信息科学基础在线实验手册',
+      'href'  : 'http://manual.wangding.in'
+    },
+    {
+      'class' : 'r',
+      'date'  : '2018年3月7日',
+      'event' : '给经贸数统学院上管理信息系统',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '2018年3月6日',
+      'event' : '给师大软件学院上 SPA 富应用开发',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '2018年3月6日',
+      'event' : '给经贸数统学院上信息科学基础',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
+      'date'  : '2017年12月31日',
+      'event' : '参与了 reformat-markdown-table 开源项目',
+      'href'  : 'http://reformat.wangding.in'
+    },
+    {
+      'class' : 'l',
+      'date'  : '2017年11月21日',
+      'event' : '制作并上线了个人简介网站',
+      'href'  : 'http://i.wangding.in'
+    },
+    {
       'class' : 'r',
       'date'  : '2017年10月24日',
       'event' : '入驻 SegmentFault 网站',
