@@ -27,12 +27,6 @@ module.exports = function (grunt) {
       html: {
         src: './index.html',
         dest: './dist/index.html'
-      },
-      end: {
-        files: [
-          {expand: true, flatten: true, filter: 'isFile', src: 'dist/index.html', dest: './' },
-          {expand: true, flatten: true, filter: 'isFile', src: 'dist/js/bundle.min.js', dest: 'js/'},
-          {expand: true, flatten: true, filter: 'isFile', src: 'dist/css/bundle.min.css', dest: 'css/'}]
       }
     },
     concat: {
