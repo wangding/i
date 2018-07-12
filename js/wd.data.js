@@ -19,25 +19,25 @@ wd.data = {
       'class' : 'l',
       'date'  : '2018年6月17日',
       'event' : '制作并上线了信息科学基础在线实验',
-      'href'  : 'http://info-lab.wangding.in'
+      'href'  : 'https://info-lab.wangding.in'
     },
     {
       'class' : 'l',
       'date'  : '2018年6月4日',
       'event' : '制作并上线了 Node.js 开发在线通关任务',
-      'href'  : 'http://nodejs.wangding.in'
+      'href'  : 'https://nodejs.wangding.in'
     },
     {
       'class' : 'l',
       'date'  : '2018年5月22日',
       'event' : '制作并上线了 SPA 课程案例网站',
-      'href'  : 'http://spa.wangding.in'
+      'href'  : 'https://spa.wangding.in'
     },
     {
       'class' : 'l',
       'date'  : '2018年4月25日',
       'event' : '制作并上线了信息科学基础在线实验手册',
-      'href'  : 'http://manual.wangding.in'
+      'href'  : 'https://manual.wangding.in'
     },
     {
       'class' : 'r',
@@ -61,19 +61,19 @@ wd.data = {
       'class' : 'l',
       'date'  : '2017年12月31日',
       'event' : '参与了 reformat-markdown-table 开源项目',
-      'href'  : 'http://reformat.wangding.in'
+      'href'  : 'https://reformat.wangding.in'
     },
     {
       'class' : 'l',
       'date'  : '2017年11月21日',
       'event' : '制作并上线了个人简介网站',
-      'href'  : 'http://i.wangding.in'
+      'href'  : 'https://i.wangding.in'
     },
     {
       'class' : 'r',
       'date'  : '2017年10月24日',
       'event' : '入驻 SegmentFault 网站',
-      'href'  : 'http://sf.gg/u/wngding'
+      'href'  : 'https://sf.gg/u/wngding'
     },
     {
       'class' : 'l',
