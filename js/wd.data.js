@@ -17,6 +17,12 @@ wd.data = {
   'timeline' : [
     {
       'class' : 'l',
+      'date'  : '2018年12月17日',
+      'event' : '制作并上线了 SPA 课程在线通关任务',
+      'href'  : 'https://spa.wangding.in'
+    },
+    {
+      'class' : 'l',
       'date'  : '2018年6月17日',
       'event' : '制作并上线了信息科学基础在线实验',
       'href'  : 'https://info-lab.wangding.in'
@@ -31,7 +37,7 @@ wd.data = {
       'class' : 'l',
       'date'  : '2018年5月22日',
       'event' : '制作并上线了 SPA 课程案例网站',
-      'href'  : 'https://spa.wangding.in'
+      'href'  : 'https://fe.wangding.in'
     },
     {
       'class' : 'l',
