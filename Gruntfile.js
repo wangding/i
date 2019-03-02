@@ -1,6 +1,12 @@
 /* global module: true */
 module.exports = function (grunt) {
   grunt.initConfig({
+    eslint: {
+      options: {
+        configFile: '.eslintrc.json'
+      },
+      target: ['./js/*.js']
+    },
     csslint: {
       options: {
         csslintrc: '.csslintrc'
@@ -67,8 +73,9 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
+  grunt.loadNpmTasks('grunt-eslint');
   grunt.loadNpmTasks('grunt-usemin');
 
-  grunt.registerTask('lint', ['htmlhint', 'csslint']);
+  grunt.registerTask('lint', ['htmlhint', 'csslint', 'eslint']);
   grunt.registerTask('build', ['copy:html', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'usemin', 'htmlmin', 'clean:end']);
 };
