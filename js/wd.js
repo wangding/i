@@ -11,4 +11,4 @@ var wd = (function() {
   return { initModule: initModule };
 }());
 
-$(function() { wd.initModule($('#wd-resume')); });
+$(function() { wd.initModule($("#wd-resume")); });
