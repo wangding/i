@@ -1,5 +1,5 @@
 /*
- * wd.data.js
+ * data.js
  * resume data module for SPA
  */
 
@@ -12,14 +12,81 @@
     },
 */
 
-/* global wd: true */
+/* exported data */
+var wd = {};
 wd.data = {
   'timeline' : [
+    {
+      'class' : 'l',
+      'date'  : '2019年5月28日',
+      'event' : '制作并上线了 gitbook-plugin-bsz',
+      'href'  : 'https://www.npmjs.com/package/gitbook-plugin-bsz'
+    },
+    {
+      'class' : 'l',
+      'date'  : '2019年4月24日',
+      'event' : '制作并上线了 jsnotepad',
+      'href'  : 'https://np.wangding.in/'
+    },
+    {
+      'class' : 'r',
+      'date'  : '2019年4月24日',
+      'event' : '开通 B 站账户',
+      'href'  : 'https://space.bilibili.com/420780095'
+    },
+    {
+      'class' : 'l',
+      'date'  : '2019年3月30日',
+      'event' : '制作并上线了矩形计算器',
+      'href'  : 'https://wangding.github.io/rectangle/'
+    },
+    {
+      'class' : 'r',
+      'date'  : '2019年2月26日',
+      'event' : '给经贸数统学院上信息科学基础',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '2019年2月26日',
+      'event' : '给师大软件学院上 SPA 富应用开发',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '2019年2月25日',
+      'event' : '给经贸数统学院上管理信息系统',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '2019年2月19日',
+      'event' : '柏林禅寺受三皈五戒',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '',
+      'event' : '2019 年',
+      'href'  : ''
+    },
     {
       'class' : 'l',
       'date'  : '2018年12月17日',
       'event' : '制作并上线了 SPA 课程在线通关任务',
       'href'  : 'https://spa.wangding.in'
+    },
+    {
+      'class' : 'r',
+      'date'  : '2018年9月11日',
+      'event' : '给软件学院上 Node.js 应用开发课程',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '2018年9月4日',
+      'event' : '给经贸数学学院上软件测试课程',
+      'href'  : ''
     },
     {
       'class' : 'l',
@@ -64,9 +131,15 @@ wd.data = {
       'href'  : ''
     },
     {
+      'class' : 'r',
+      'date'  : '',
+      'event' : '2018 年',
+      'href'  : ''
+    },
+    {
       'class' : 'l',
       'date'  : '2017年12月31日',
-      'event' : '参与了 reformat-markdown-table 开源项目',
+      'event' : '参与 reformat-markdown-table 项目',
       'href'  : 'https://reformat.wangding.in'
     },
     {
@@ -234,7 +307,7 @@ wd.data = {
     {
       'class' : 'r',
       'date'  : '',
-      'event' : '2017年',
+      'event' : '2017 年',
       'href'  : ''
     },
     {

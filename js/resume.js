@@ -1,10 +1,11 @@
 /*
- * wd.resume.js
- * wd resume module for SPA
+ * resume.js
+ * resume module for SPA
  */
 
-/* global wd: true */
-wd.resume = (function() {
+/* global wd $timeline: true */
+/* exported $resume */
+var $resume = (function() {
   var $container, 
       data = ['info', 'title', 'contact', 'skills'];
 
@@ -20,12 +21,12 @@ wd.resume = (function() {
     });
   };
 
-  var initModule = function(container) {
+  var show = function(container) {
     $container = container;
     fillSlogan();
     fillData();
-    wd.timeline.initModule($container.find('#wd-resume-timeline'));
+    $timeline.show($container.find('#wd-resume-timeline'));
   };
 
-  return { initModule: initModule };
+  return { show: show };
 }());
