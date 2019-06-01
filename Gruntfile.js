@@ -47,7 +47,8 @@ module.exports = function (grunt) {
     },
     uglify: {
       'dist/js/bundle.min.js': 'dist/js/bundle.js',
-      'dist/js/fork-me-github.js': 'js/fork-me-github.js'
+      'dist/js/fork-me-github.js': 'js/fork-me-github.js',
+      'dist/js/bsz-page-footer.js': 'js/bsz-page-footer.js'
     },
     cssmin: {
       'dist/css/bundle.min.css': 'dist/css/bundle.css'
