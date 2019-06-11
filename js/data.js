@@ -18,6 +18,12 @@ wd.data = {
   'timeline' : [
     {
       'class' : 'l',
+      'date'  : '2019年6月10日',
+      'event' : '制作并上线了 gitbook-plugin-gtalk',
+      'href'  : 'https://www.npmjs.com/package/gitbook-plugin-gtalk'
+    },
+    {
+      'class' : 'l',
       'date'  : '2019年5月28日',
       'event' : '制作并上线了 gitbook-plugin-bsz',
       'href'  : 'https://www.npmjs.com/package/gitbook-plugin-bsz'
@@ -41,19 +47,19 @@ wd.data = {
       'href'  : 'https://wangding.github.io/rectangle/'
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2019年2月26日',
       'event' : '给经贸数统学院上信息科学基础',
       'href'  : ''
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2019年2月26日',
       'event' : '给师大软件学院上 SPA 富应用开发',
       'href'  : ''
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2019年2月25日',
       'event' : '给经贸数统学院上管理信息系统',
       'href'  : ''
@@ -77,15 +83,21 @@ wd.data = {
       'href'  : 'https://spa.wangding.in'
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2018年9月11日',
       'event' : '给软件学院上 Node.js 应用开发课程',
       'href'  : ''
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2018年9月4日',
-      'event' : '给经贸数学学院上软件测试课程',
+      'event' : '给经贸数统学院上软件测试课程',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '2018年8月20日',
+      'event' : '按照 Taiguanglin 禅修法开始修行',
       'href'  : ''
     },
     {
@@ -113,19 +125,19 @@ wd.data = {
       'href'  : 'https://manual.wangding.in'
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2018年3月7日',
       'event' : '给经贸数统学院上管理信息系统',
       'href'  : ''
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2018年3月6日',
       'event' : '给师大软件学院上 SPA 富应用开发',
       'href'  : ''
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2018年3月6日',
       'event' : '给经贸数统学院上信息科学基础',
       'href'  : ''
@@ -143,6 +155,12 @@ wd.data = {
       'href'  : 'https://reformat.wangding.in'
     },
     {
+      'class' : 'r',
+      'date'  : '2017年11月29日',
+      'event' : '加入中科佰融',
+      'href'  : ''
+    },
+    {
       'class' : 'l',
       'date'  : '2017年11月21日',
       'event' : '制作并上线了个人简介网站',
@@ -151,7 +169,7 @@ wd.data = {
     {
       'class' : 'r',
       'date'  : '2017年10月24日',
-      'event' : '入驻 SegmentFault 网站',
+      'event' : '开通 SegmentFault 网站账户',
       'href'  : 'https://sf.gg/u/wngding'
     },
     {
@@ -161,7 +179,7 @@ wd.data = {
       'href'  : 'https://ke.qq.com/course/252061'
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2017年9月11日',
       'event' : '给师大软件学院上 Node.js 应用开发',
       'href'  : ''
@@ -173,7 +191,7 @@ wd.data = {
       'href'  : 'https://ke.qq.com/course/244604'
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2017年9月4日',
       'event' : '给经贸数统学院上软件测试基础',
       'href'  : ''
@@ -263,13 +281,13 @@ wd.data = {
       'href'  : 'http://edu.51cto.com/course/course_id-8511.html'
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2017年2月21日',
       'event' : '给经贸数统学院上管理信息系统',
       'href'  : ''
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2017年2月20日',
       'event' : '给经贸数统学院上信息科学基础',
       'href'  : ''
@@ -293,7 +311,7 @@ wd.data = {
       'href'  : 'https://ke.qq.com/course/225259'
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2017年1月26日',
       'event' : 'how-to-markdown 软件汉化',
       'href'  : 'https://github.com/workshopper/how-to-markdown/graphs/contributors'
@@ -373,52 +391,161 @@ wd.data = {
     {
       'class' : 'r',
       'date'  : '',
-      'event' : '2016年',
+      'event' : '2016 年',
       'href'  : ''
     },
     {
       'class' : 'r',
+      'date'  : '2014年2月',
+      'event' : '开通 51CTO 学院讲师账户',
+      'href'  : 'https://edu.51cto.com/lecturer/8606427.html'
+    },
+    {
+      'class' : 'r',
+      'date'  : '',
+      'event' : '2014 年',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
+      'date'  : '2012年12月',
+      'event' : '参与 iSchool 项目',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '2012年12月',
+      'event' : '加入河北师范大学移动物联网研究院',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
       'date'  : '2012年3月',
       'event' : '软件测试管理图书出版',
       'href'  : 'http://product.china-pub.com/59771'
-    },{
+    },
+    {
       'class' : 'r',
+      'date'  : '',
+      'event' : '2012 年',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
       'date'  : '2010年1月28日',
       'event' : 'C语言与程序设计大学教程图书出版',
       'href'  : 'http://product.china-pub.com/49727'
     },
     {
       'class' : 'r',
+      'date'  : '',
+      'event' : '2010 年',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '2008年10月9日',
+      'event' : '儿子王辰鑫出生',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '',
+      'event' : '2008 年',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '2007年9月10日',
+      'event' : '加入河北师大软件学院',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
       'date'  : '2007年9月10日',
       'event' : '数字图像处理原理与应用图书出版',
       'href'  : 'http://product.china-pub.com/36136'
     },
     {
       'class' : 'r',
+      'date'  : '',
+      'event' : '2007 年',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
+      'date'  : '2005年5月',
+      'event' : '给中国网通河北分公司培训项目管理',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '',
+      'event' : '2005 年',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '2003年11月',
+      'event' : '从佳诚公司离职',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
+      'date'  : '2003年4月',
+      'event' : '参与中国平安手机投保项目',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '',
+      'event' : '2003 年',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
+      'date'  : '2002年9月',
+      'event' : '参与河北省委移动办公项目',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
+      'date'  : '2002年8月',
+      'event' : '参与河北省委邮件服务器迁移项目',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
       'date'  : '2002年7月',
       'event' : '给省网通培训 Windows 2000 AD',
       'href'  : ''
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2002年7月7日',
       'event' : '给微软全国 CTEC 教师培训 .net 技术',
       'href'  : ''
     },
     {
       'class' : 'r',
+      'date'  : '',
+      'event' : '2002 年',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
       'date'  : '2001年7月',
       'event' : '给全通公司培训 VB6.0 和 MSF',
       'href'  : ''
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2001年4月',
       'event' : '给核工业航测遥感中心集体培训',
       'href'  : ''
     },
     {
-      'class' : 'r',
+      'class' : 'l',
       'date'  : '2001年3月',
       'event' : '给省测绘局培训 VB6.0 程序开发',
       'href'  : ''
@@ -431,14 +558,32 @@ wd.data = {
     },
     {
       'class' : 'r',
+      'date'  : '',
+      'event' : '2001 年',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
       'date'  : '2000年12月',
       'event' : '给省建行培训 NT4.0 企业技术',
       'href'  : ''
     },
     {
       'class' : 'r',
+      'date'  : '2000年6月',
+      'event' : '进入佳诚公司',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
       'date'  : '2000年5月25日',
       'event' : '获得 MCSE 证书',
+      'href'  : ''
+    },
+    {
+      'class' : 'r',
+      'date'  : '',
+      'event' : '2000 年',
       'href'  : ''
     },
     {
