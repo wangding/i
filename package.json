@@ -27,6 +27,7 @@
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-eslint": "^21.0.0",
     "grunt-htmlhint": "^0.9.13",
+    "grunt-text-replace": "^0.4.0",
     "grunt-usemin": "^3.1.1"
   }
 }

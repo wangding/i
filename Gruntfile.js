@@ -29,6 +29,19 @@ module.exports = function (grunt) {
         dest: 'dist/index.html'
       }
     },
+    replace: {
+      html: {
+        src: ['dist/*.html'],
+        overwrite: true,
+        replacements: [{
+          from: 'href="css',
+          to: 'href="https://cdn.jsdelivr.net/gh/wangding/i@gh-pages/css'
+        }, {
+          from: 'src="js',
+          to: 'src="https://cdn.jsdelivr.net/gh/wangding/i@gh-pages/js'
+        }]
+      }
+    },
     copy: {
       html: {
         src: './index.html',
@@ -77,7 +90,8 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-eslint');
   grunt.loadNpmTasks('grunt-usemin');
+  grunt.loadNpmTasks('grunt-text-replace');
 
   grunt.registerTask('lint', ['htmlhint', 'csslint', 'eslint']);
-  grunt.registerTask('build', ['copy:html', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'usemin', 'htmlmin', 'clean:end']);
+  grunt.registerTask('build', ['copy:html', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'usemin', 'htmlmin', 'replace', 'clean:end']);
 };
