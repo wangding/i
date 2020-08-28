@@ -18,6 +18,42 @@ wd.data = {
   'timeline' : [
     {
       'class' : 'l',
+      'date'  : '2020年6月8日',
+      'event' : '制作并上线了 Node.js 自动化测试',
+      'href'  : 'https://study.163.com/course/introduction/1210126425.htm'
+    },
+    {
+      'class' : 'l',
+      'date'  : '2020年6月1日',
+      'event' : '制作并上线了 SPA 富应用开发',
+      'href'  : 'https://www.bilibili.com/video/BV1o7411L7L1'
+    },
+    {
+      'class' : 'l',
+      'date'  : '2020年3月18日',
+      'event' : '制作并上线了 Node.js 代码调试',
+      'href'  : 'https://ke.sifou.com/course/1650000021972874'
+    },
+    {
+      'class' : 'r',
+      'date'  : '',
+      'event' : '2020 年',
+      'href'  : ''
+    },
+    {
+      'class' : 'l',
+      'date'  : '2019年9月12日',
+      'event' : '制作并上线了 SeIDE 自动化测试（上）',
+      'href'  : 'https://www.bilibili.com/video/BV1fJ411w7mk'
+    },
+    {
+      'class' : 'l',
+      'date'  : '2019年8月19日',
+      'event' : '制作并上线了思维导图实战课程',
+      'href'  : 'https://www.bilibili.com/video/BV1rE411f7SY'
+    },
+    {
+      'class' : 'l',
       'date'  : '2019年6月10日',
       'event' : '制作并上线了 gitbook-plugin-gtalk',
       'href'  : 'https://www.npmjs.com/package/gitbook-plugin-gtalk'
@@ -206,7 +242,7 @@ wd.data = {
       'class' : 'l',
       'date'  : '2017年8月7日',
       'event' : '百度脑图入门视频课程上线',
-      'href'  : 'https://ke.qq.com/course/231603'
+      'href'  : 'https://www.bilibili.com/video/BV1R4411G7hb'
     },
     {
       'class' : 'l',
