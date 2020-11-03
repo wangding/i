@@ -68,7 +68,7 @@ wd.data = {
       'class' : 'l',
       'date'  : '2019年4月24日',
       'event' : '制作并上线了 jsnotepad',
-      'href'  : 'https://np.wangding.in/'
+      'href'  : 'https://np.wangding.co/'
     },
     {
       'class' : 'r',
@@ -116,7 +116,7 @@ wd.data = {
       'class' : 'l',
       'date'  : '2018年12月17日',
       'event' : '制作并上线了 SPA 课程在线通关任务',
-      'href'  : 'https://spa.wangding.in'
+      'href'  : 'https://spa.wangding.co'
     },
     {
       'class' : 'l',
@@ -140,25 +140,25 @@ wd.data = {
       'class' : 'l',
       'date'  : '2018年6月17日',
       'event' : '制作并上线了信息科学基础在线实验',
-      'href'  : 'https://info-lab.wangding.in'
+      'href'  : 'https://info-lab.wangding.co'
     },
     {
       'class' : 'l',
       'date'  : '2018年6月4日',
       'event' : '制作并上线了 Node.js 开发在线通关任务',
-      'href'  : 'https://nodejs.wangding.in'
+      'href'  : 'https://nodejs.wangding.co'
     },
     {
       'class' : 'l',
       'date'  : '2018年5月22日',
       'event' : '制作并上线了 SPA 课程案例网站',
-      'href'  : 'https://fe.wangding.in'
+      'href'  : 'https://fe.wangding.co'
     },
     {
       'class' : 'l',
       'date'  : '2018年4月25日',
       'event' : '制作并上线了信息科学基础在线实验手册',
-      'href'  : 'https://manual.wangding.in'
+      'href'  : 'https://manual.wangding.co'
     },
     {
       'class' : 'l',
@@ -188,7 +188,7 @@ wd.data = {
       'class' : 'l',
       'date'  : '2017年12月31日',
       'event' : '参与 reformat-markdown-table 项目',
-      'href'  : 'https://reformat.wangding.in'
+      'href'  : 'https://reformat.wangding.co'
     },
     {
       'class' : 'r',
@@ -200,7 +200,7 @@ wd.data = {
       'class' : 'l',
       'date'  : '2017年11月21日',
       'event' : '制作并上线了个人简介网站',
-      'href'  : 'https://i.wangding.in'
+      'href'  : 'https://i.wangding.co'
     },
     {
       'class' : 'r',
