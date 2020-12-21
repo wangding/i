@@ -1,0 +1,1 @@
+var $forkMeGH=function(){var e=$('<div class="fork-me-github" style="position: absolute; top: 0; right: 0; z-index: 20;"><a><img src="https://cdn.jsdelivr.net/gh/wangding/sample@master/images/fork-me-on-github-red.webp" alt="Fork me on GitHub"></a></div>'),i=e.find("a");return{show:function(t){i.attr("href",t),$("body").append(e)}}}();
